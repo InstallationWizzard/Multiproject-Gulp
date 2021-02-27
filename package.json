@@ -1,0 +1,43 @@
+{
+  "name": "inveogulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Tomáš Janda",
+    "email": "tomas.janda@inveo.cz"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "cssnano": "^4.1.10",
+    "express": "^4.17.1",
+    "gulp": "^4.0.1",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^3.0.0",
+    "gulp-less": "^4.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "node-notifier": "^8.0.0",
+    "path": "^0.12.7",
+    "pixrem": "^5.0.0",
+    "postcss": "^8.1.1",
+    "postcss-discard-comments": "^4.0.2",
+    "simple-git": "^2.25.0",
+    "socket.io": "^3.1.0",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "gulp-babel": "^8.0.0"
+  }
+}
